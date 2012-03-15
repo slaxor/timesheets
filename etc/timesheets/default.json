@@ -1,0 +1,5 @@
+{
+  "round_time": 0.25,
+  "date_format": "%d.%m.%Y",
+  "storage_format": "%date; %time; %description"
+}

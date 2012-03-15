@@ -1,0 +1,9 @@
+#!/bin/bash
+export TIMESHEETS_HOME=${HOME}/.timesheets
+export TIMESHEETS_APPDIR=$(dirname $(readlink -f "$0"))/..
+export NODE_PATH+=$TIMESHEETS_APPDIR/lib/timesheets
+
+/usr/bin/env node $TIMESHEETS_APPDIR/lib/timesheets/index.js $*
+
+
+
